@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  .errorNumber {
+    font-weight: 600;
+    font-size: 10em;
+    color: black;
+  }
+  .container {
+    text-align: center;
+  }
+  .pageNotFound {
+    font-size: 2em;
+    margin: 1em 0em;
+    color: black;
+  }
+  .goToPage {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    font-size: 1.3em;
+    color: black;
+  }
+  
+  @media (max-width: 500px) {
+    .errorNumber {
+      font-size: 7em;
+    }
+    .pageNotFound {
+      font-size: 1.5em;
+    }
+    .goToPage {
+      font-size: 1em;
+    }
+  }
+  

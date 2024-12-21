@@ -1,0 +1,14 @@
+.navLink {
+    color: black;
+    text-decoration: none;
+  }
+  .navLink:hover {
+    color: rgb(7, 46, 173);
+  }
+  .linkBox {
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    margin-top: 1em;
+  }
+  
